@@ -10,47 +10,73 @@
 </head>
 
 <body>
-    <!-- Фон страницы -->
-    <a href="index.html">Главная</a>
-    <a href="contacts.html">Контакты</a>
-    <h2 class="h2">Contact Us</h2>
-    <p>xz ban</p>
-    <img src="pic/p1.gif" alt="picture">
-    <h4>Address</h4>
-    <p>street</p>
-    <h4>Phone</h4>
-    <ul>
-        <li>+7 123 45 67</li>
-        <li>+7 322 17 77</li>
-    </ul>
-    <h4>Online service</h4>
-    <ul>
-        <li><a href="https://www.codecademy.com/" target="_blank">Site</a></li>
-        <li><a href="mail@projqwe.com" target="_blank">Mail</a></li>
-    </ul>
-    <h4>Send us message</h4>
-    <form action="#">
-        Full Name: <input type="text" placeholder="Darth Vader"><br>
-        Email: <input type="email" placeholder="mylo@gmail.com"><br>
-        Message: <textarea cols="20" rows="5"></textarea><br>
-        <button class="sub1" type="submit">Submit</button><br>
-        <p>
-            <script type="text/javascript" charset="utf-8" async
-                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af2cddb62f20f9595de6993f2a2eb2fc840207b0cd2973cc64500d49cc59e823b&amp;width=382&amp;height=305&amp;lang=ru_RU&amp;scroll=true"></script>
-        </p>
+    <div class="header">
+        <nav>
+            <ul class="menu">
+                <li class="menulinks">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="menulinks">
+                    <a href="contacts.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="base-text container">
+        <h2 class="page2h">Contact Us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, sed?</p>
+    </div>
+    <main class="pageheader container">
+        <div class="comms">
+            <img src="pic/p1.gif" alt="picture">
+            <div class="datas">
+                <h4>Address</h4>
+                <p>street</p>
+                <h4>Phone</h4>
+            </div>
+            <ul class="phones">
+                <li class="servs">+7 123 45 67</li>
+                <li class="servs">+7 322 17 77</li>
+            </ul>
+            <h4>Online service</h4>
+            <div class="datalinks">
+                <ul>
+                    <li class="servs"><a href="https://www.codecademy.com/" target="_blank">Site</a></li>
+                    <li class="servs"><a href="mail@projqwe.com" target="_blank">Mail</a></li>
+                </ul>
+            </div>
         </div>
-    </form>
-    <!-- Это подвал сайта -->
-    <footer>
-        <h3>Odit, dolore ut.</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="feedback">
+            <h4>Send us message</h4>
+            <form class="formtext" action="#">
+                Full Name: <input type="text" placeholder="Darth Vader"><br>
+                Email: <input type="email" placeholder="mylo@gmail.com"><br>
+                Message: <textarea cols="20" rows="5"></textarea><br>
+                <button class="sub1" type="submit">Submit</button><br>
+            </form>
+        </div>
+    </main>
+    <div class="mapsite container">
+        <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af2cddb62f20f9595de6993f2a2eb2fc840207b0cd2973cc64500d49cc59e823b&amp;width=1282&amp;height=505&amp;lang=ru_RU&amp;scroll=true"></script>
+
+    </div>
+    <footer class="backfoot container">
+        <div class="lastsent">
+            <h3>Intrested to work with out team?</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
         <hr>
-        <ul>
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>+7 123 45 67</li>
-            <li>mail@projqwe.com</li>
-        </ul>
-        <p>Все права защищены®</p>
+        <div>
+            <ul>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>+7 123 45 67</li>
+                <li>mail@projqwe.com</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>Все права защищены®</p>
+        </div>
     </footer>
 </body>
 
